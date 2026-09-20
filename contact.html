@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kontak Kami - Lelang Ikan</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #1a2a3a;
+      line-height: 1.6;
+      background: linear-gradient(180deg, #e8f4f8 0%, #ffffff 40%);
+      min-height: 100vh;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+
+    header {
+      background: #0b3d5c;
+      color: #fff;
+      padding: 20px 0;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    }
+
+    header .container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .logo {
+      font-size: 1.5rem;
+      font-weight: 700;
+      letter-spacing: 0.5px;
+    }
+
+    .logo span {
+      color: #ffc107;
+    }
+
+    nav ul {
+      display: flex;
+      list-style: none;
+      gap: 24px;
+    }
+
+    nav a {
+      color: #dceef7;
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.2s;
+    }
+
+    nav a:hover {
+      color: #ffc107;
+    }
+
+    nav a.active {
+      color: #ffc107;
+    }
+
+    .page-title {
+      text-align: center;
+      padding: 40px 20px 30px;
+    }
+
+    .page-title h1 {
+      font-size: 2.2rem;
+      color: #0b3d5c;
+      margin-bottom: 10px;
+    }
+
+    .page-title p {
+      font-size: 1.05rem;
+      max-width: 620px;
+      margin: 0 auto;
+      color: #3d5568;
+    }
+
+    .contact-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 16px;
+      margin-bottom: 32px;
+    }
+
+    .contact-card {
+      background: #f0f7fb;
+      border-radius: 10px;
+      padding: 24px;
+      text-align: center;
+    }
+
+    .contact-card .icon {
+      font-size: 1.8rem;
+      margin-bottom: 10px;
+    }
+
+    .contact-card h3 {
+      color: #0b3d5c;
+      font-size: 1.05rem;
+      margin-bottom: 6px;
+    }
+
+    .contact-card p {
+      color: #3d5568;
+      font-size: 0.95rem;
+    }
+
+    .contact-form-wrap {
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 6px 20px rgba(11, 61, 92, 0.12);
+      padding: 28px;
+      margin-bottom: 40px;
+    }
+
+    .contact-form-wrap h2 {
+      font-size: 1.4rem;
+      color: #0b3d5c;
+      margin-bottom: 20px;
+    }
+
+    .form-group {
+      margin-bottom: 16px;
+    }
+
+    .form-group label {
+      display: block;
+      font-weight: 600;
+      color: #0b3d5c;
+      margin-bottom: 6px;
+      font-size: 0.95rem;
+    }
+
+    .form-group input,
+    .form-group textarea {
+      width: 100%;
+      padding: 12px 14px;
+      border: 1px solid #dbe6ee;
+      border-radius: 8px;
+      font-size: 1rem;
+      font-family: inherit;
+      color: #1a2a3a;
+      background: #fbfdfe;
+      transition: border-color 0.2s, box-shadow 0.2s;
+    }
+
+    .form-group input:focus,
+    .form-group textarea:focus {
+      outline: none;
+      border-color: #0b3d5c;
+      box-shadow: 0 0 0 3px rgba(11, 61, 92, 0.15);
+    }
+
+    .form-group textarea {
+      resize: vertical;
+      min-height: 130px;
+    }
+
+    .btn {
+      display: inline-block;
+      background: #0b3d5c;
+      color: #fff;
+      padding: 14px 32px;
+      border-radius: 8px;
+      border: none;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background 0.2s, transform 0.2s;
+    }
+
+    .btn:hover {
+      background: #145d85;
+      transform: translateY(-2px);
+    }
+
+    footer {
+      background: #0b3d5c;
+      color: #cfe3ee;
+      text-align: center;
+      padding: 20px 0;
+      margin-top: 20px;
+    }
+
+    footer a {
+      color: #ffc107;
+      text-decoration: none;
+    }
+
+    @media (max-width: 600px) {
+      header .container {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .page-title h1 {
+        font-size: 1.7rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="logo"><a href="index.html" style="color:#fff;text-decoration:none;">Lelang<span>Ikan</span></a></div>
+      <nav>
+        <ul>
+          <li><a href="index.html#lelang">Daftar Lelang</a></li>
+          <li><a href="index.html#tentang">Tentang</a></li>
+          <li><a class="active" href="contact.html">Kontak</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-title">
+      <div class="container">
+        <h1>Hubungi Kami</h1>
+        <p>Punya pertanyaan tentang lelang, pendaftaran, atau kerja sama? Tim kami siap membantu Anda.</p>
+      </div>
+    </section>
+
+    <section class="container">
+      <div class="contact-grid">
+        <div class="contact-card">
+          <div class="icon">📞</div>
+          <h3>Telepon</h3>
+          <p>+62 21 1234 5678</p>
+          <p>Senin–Jumat, 08.00–17.00 WIB</p>
+        </div>
+        <div class="contact-card">
+          <div class="icon">✉️</div>
+          <h3>Email</h3>
+          <p>halo@lelangikan.id</p>
+          <p>Balasan dalam 1×24 jam</p>
+        </div>
+        <div class="contact-card">
+          <div class="icon">📍</div>
+          <h3>Alamat</h3>
+          <p>Jl. Samudera No. 12</p>
+          <p>Jakarta Utara</p>
+        </div>
+      </div>
+
+      <div class="contact-form-wrap">
+        <h2>Kirim Pesan</h2>
+        <form action="#" method="post">
+          <div class="form-group">
+            <label for="nama">Nama Lengkap</label>
+            <input type="text" id="nama" name="nama" placeholder="Nama Anda" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="email@contoh.com" required>
+          </div>
+          <div class="form-group">
+            <label for="subjek">Subjek</label>
+            <input type="text" id="subjek" name="subjek" placeholder="Topik pesan Anda">
+          </div>
+          <div class="form-group">
+            <label for="pesan">Pesan</label>
+            <textarea id="pesan" name="pesan" placeholder="Tuliskan pesan Anda..." required></textarea>
+          </div>
+          <button type="submit" class="btn">Kirim Pesan</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2026 <a href="index.html">LelangIkan</a>. Seluruh hak cipta dilindungi.</p>
+    </div>
+  </footer>
+</body>
+</html>
