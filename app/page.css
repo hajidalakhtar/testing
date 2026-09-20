@@ -1,0 +1,139 @@
+.hero {
+  text-align: center;
+  padding: 60px 20px 50px;
+}
+
+.hero h1 {
+  font-size: 2.6rem;
+  color: #0b3d5c;
+  margin-bottom: 16px;
+}
+
+.hero p {
+  font-size: 1.15rem;
+  max-width: 680px;
+  margin: 0 auto 30px;
+  color: #3d5568;
+}
+
+.btn {
+  display: inline-block;
+  background: #0b3d5c;
+  color: #fff;
+  padding: 14px 32px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: background 0.2s, transform 0.2s;
+}
+
+.btn:hover {
+  background: #145d85;
+  transform: translateY(-2px);
+}
+
+.featured {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(11, 61, 92, 0.12);
+  padding: 24px;
+  margin-bottom: 40px;
+}
+
+.featured h2,
+.section-title {
+  font-size: 1.5rem;
+  color: #0b3d5c;
+  margin-bottom: 20px;
+}
+
+.fish-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 16px;
+}
+
+.fish-card {
+  border: 1px solid #dbe6ee;
+  border-radius: 10px;
+  padding: 16px;
+  background: #fbfdfe;
+  transition: box-shadow 0.2s, transform 0.2s;
+}
+
+.fish-card:hover {
+  box-shadow: 0 6px 16px rgba(11, 61, 92, 0.15);
+  transform: translateY(-3px);
+}
+
+.fish-icon {
+  font-size: 2rem;
+  margin-bottom: 8px;
+}
+
+.fish-card h3 {
+  color: #0b3d5c;
+  font-size: 1.1rem;
+  margin-bottom: 4px;
+}
+
+.fish-card .origin {
+  font-size: 0.9rem;
+  color: #7a8a99;
+  margin-bottom: 8px;
+}
+
+.fish-card .price {
+  font-weight: 700;
+  color: #c2571a;
+  font-size: 1.05rem;
+}
+
+.bid {
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px dashed #dbe6ee;
+  font-size: 0.9rem;
+  color: #3d5568;
+}
+
+.bid strong {
+  color: #0b7a3d;
+}
+
+.info {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+  margin-bottom: 40px;
+}
+
+.info-item {
+  background: #f0f7fb;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+}
+
+.info-item .num {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #0b3d5c;
+}
+
+.info-item p {
+  color: #3d5568;
+  font-size: 0.95rem;
+}
+
+.info-item .icon {
+  font-size: 1.6rem;
+  margin-bottom: 8px;
+}
+
+@media (max-width: 600px) {
+  .hero h1 {
+    font-size: 1.9rem;
+  }
+}

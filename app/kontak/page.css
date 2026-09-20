@@ -1,0 +1,123 @@
+.page-title {
+  text-align: center;
+  padding: 40px 20px 30px;
+}
+
+.page-title h1 {
+  font-size: 2.2rem;
+  color: #0b3d5c;
+  margin-bottom: 10px;
+}
+
+.page-title p {
+  font-size: 1.05rem;
+  max-width: 620px;
+  margin: 0 auto;
+  color: #3d5568;
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+  margin-bottom: 32px;
+}
+
+.contact-card {
+  background: #f0f7fb;
+  border-radius: 10px;
+  padding: 24px;
+  text-align: center;
+}
+
+.contact-card .icon {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+.contact-card h3 {
+  color: #0b3d5c;
+  font-size: 1.05rem;
+  margin-bottom: 6px;
+}
+
+.contact-card p {
+  color: #3d5568;
+  font-size: 0.95rem;
+}
+
+.contact-form-wrap {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(11, 61, 92, 0.12);
+  padding: 28px;
+  margin-bottom: 40px;
+}
+
+.contact-form-wrap h2 {
+  font-size: 1.4rem;
+  color: #0b3d5c;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 16px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: 600;
+  color: #0b3d5c;
+  margin-bottom: 6px;
+  font-size: 0.95rem;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 12px 14px;
+  border: 1px solid #dbe6ee;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-family: inherit;
+  color: #1a2a3a;
+  background: #fbfdfe;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: #0b3d5c;
+  box-shadow: 0 0 0 3px rgba(11, 61, 92, 0.15);
+}
+
+.form-group textarea {
+  resize: vertical;
+  min-height: 130px;
+}
+
+.btn {
+  display: inline-block;
+  background: #0b3d5c;
+  color: #fff;
+  padding: 14px 32px;
+  border-radius: 8px;
+  border: none;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s, transform 0.2s;
+}
+
+.btn:hover {
+  background: #145d85;
+  transform: translateY(-2px);
+}
+
+@media (max-width: 600px) {
+  .page-title h1 {
+    font-size: 1.7rem;
+  }
+}

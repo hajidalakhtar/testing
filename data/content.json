@@ -1,0 +1,118 @@
+{
+  "site": {
+    "name": "LelangIkan",
+    "heroName": "Lelang",
+    "heroHighlight": "Ikan",
+    "phone": "+62 21 1234 5678",
+    "phoneHours": "Senin–Jumat, 08.00–17.00 WIB",
+    "email": "halo@lelangikan.id",
+    "emailReply": "Balasan dalam 1×24 jam",
+    "address": "Jl. Samudera No. 12, Jakarta Utara",
+    "copyright": "2026"
+  },
+  "hero": {
+    "title": "Lelang Ikan Segar dari Nelayan Lokal",
+    "subtitle": "Temukan ikan segar berkualitas langsung dari hasil tangkapan nelayan. Transparan, kompetitif, dan harga terbaik untuk semua.",
+    "ctaText": "Ikuti Lelang Sekarang",
+    "ctaAnchor": "#lelang"
+  },
+  "auctionSection": {
+    "title": "Lelang Berlangsung Hari Ini"
+  },
+  "auctions": [
+    {
+      "id": "a1",
+      "icon": "🐟",
+      "name": "Tuna Sirip Kuning",
+      "origin": "Pelabuhan Muara Baru",
+      "price": "Mulai Rp 85.000 / kg",
+      "bids": 18,
+      "timeLeft": "Sisa 2 jam"
+    },
+    {
+      "id": "a2",
+      "icon": "🐠",
+      "name": "Kakap Merah",
+      "origin": "Pelabuhan Benoa",
+      "price": "Mulai Rp 70.000 / kg",
+      "bids": 12,
+      "timeLeft": "Sisa 4 jam"
+    },
+    {
+      "id": "a3",
+      "icon": "🦐",
+      "name": "Udang Windu",
+      "origin": "Pelabuhan Cilacap",
+      "price": "Mulai Rp 120.000 / kg",
+      "bids": 25,
+      "timeLeft": "Sisa 1 jam"
+    },
+    {
+      "id": "a4",
+      "icon": "🐡",
+      "name": "Bawal Putih",
+      "origin": "Pelabuhan Nizam Zachman",
+      "price": "Mulai Rp 45.000 / kg",
+      "bids": 9,
+      "timeLeft": "Sisa 5 jam"
+    }
+  ],
+  "stats": [
+    {
+      "id": "s1",
+      "icon": "⚓",
+      "number": "40+",
+      "label": "Pelabuhan Tersambung"
+    },
+    {
+      "id": "s2",
+      "icon": "🎣",
+      "number": "2.500",
+      "label": "Nelayan Terdaftar"
+    },
+    {
+      "id": "s3",
+      "icon": "🏆",
+      "number": "5.000+",
+      "label": "Lelang Selesai"
+    }
+  ],
+  "about": {
+    "title": "Tentang Lelang Ikan",
+    "paragraphs": [
+      "LelangIkan adalah platform yang menghubungkan nelayan, pedagang, dan distributor untuk melelang hasil tangkapan ikan secara langsung dan transparan. Setiap lelang diverifikasi oleh petugas pelabuhan untuk menjamin kesegaran dan kualitas.",
+      "Daftar gratis untuk memulai. Barang dijual per lot, dan harga ditentukan oleh penawaran terbaik sebelum waktu lelang berakhir."
+    ]
+  },
+  "contactSection": {
+    "title": "Kontak Kami",
+    "cards": [
+      {
+        "id": "c1",
+        "icon": "📞",
+        "title": "Telepon",
+        "line1": "+62 21 1234 5678",
+        "line2": "Senin–Jumat, 08.00–17.00 WIB"
+      },
+      {
+        "id": "c2",
+        "icon": "✉️",
+        "title": "Email",
+        "line1": "halo@lelangikan.id",
+        "line2": "Balasan dalam 1×24 jam"
+      },
+      {
+        "id": "c3",
+        "icon": "📍",
+        "title": "Alamat",
+        "line1": "Jl. Samudera No. 12",
+        "line2": "Jakarta Utara"
+      }
+    ]
+  },
+  "contactPage": {
+    "title": "Hubungi Kami",
+    "intro": "Punya pertanyaan tentang lelang, pendaftaran, atau kerja sama? Tim kami siap membantu Anda.",
+    "formTitle": "Kirim Pesan"
+  }
+}
